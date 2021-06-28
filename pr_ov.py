@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 #
 # Script waarmee reiskosten opgesomd kunnen worden.
+# Jun 2021 Matthew Buchanan Astley (matthewbuchanan@astley.nl) 
 
 import os,sys
 import glob
