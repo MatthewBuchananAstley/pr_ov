@@ -13,8 +13,7 @@ except IndexError:
    print('./pr_ov.py "mapje"')
    print('./pr_ov.py "mapje" -a  voor totale reiskosten per maand')
    print('"mapje" is de folder met alle gedownloade ov declaratie bestanden.')
-   print('Declaratie bestanden moeten MmmYYYY als prefix hebben')
-
+   print('Declaratie bestanden moeten MmmYYYY_ als prefix hebben. MmmYYYY_transacties_mmddYYYYHHMMSS.csv')
 try:
    t3 = sys.argv[2]
    if t3 == '-a':
